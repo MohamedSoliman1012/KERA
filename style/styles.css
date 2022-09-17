@@ -1,0 +1,169 @@
+body{
+  margin: 0;
+}
+.header{
+  height: 50px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-width:1px;
+  border-color:gray;
+  border-style: solid;
+  margin-bottom: 10px;
+  position: fixed  ;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-right: none;
+}
+body{
+  padding-top: 80px;
+  padding-left: 80px;
+  background-color: rgb(224, 244, 245);
+}
+.left{
+  
+  width: 300px;
+ 
+}
+.middle{
+  flex: 1;
+  margin-left: 65px;
+  ;
+  margin-right: 65px;
+  max-width: 1000px;
+  min-width: 500px;
+ 
+}
+
+.right{
+ 
+  width: 300px;
+}
+
+.search-box {
+  width: 10cm;
+  height: 1cm;
+  display: block;
+  border-radius: 10px;
+  border-width: 0.1px;
+  margin-top: 2px;
+  margin-left: 5px;
+  flex: 1;
+  
+}
+.search-box::placeholder{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  text-align: center;
+}
+.secound {
+    
+    width: 2px;
+    text-align: center;
+}
+.logo {
+  width: 2cm;
+  border-radius: 5px;
+  
+}
+
+.products{
+  margin-left: 25px;
+}
+.designs {
+  width: 294px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  border-style: solid;
+  border-width: .5px;
+  border-radius: 3px;
+  margin: 5px;
+  margin-left: 5px;
+
+}
+.cloths {
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+  height: 250px;
+  background-color: white;
+  object-fit: contain;
+  border-style: hidden;
+  margin-bottom: 10px;
+  border-radius: 147px;
+}
+.design-pic {
+  display: inline-block;
+}
+.design-name{
+  display: inline-block;
+  width: 2cm;
+  text-align: center;
+
+}
+div{
+ font-family: Arial, Helvetica, sans-serif; 
+ 
+}
+.design-grid{
+  
+  display: grid;
+  grid-template-columns:100px ;
+  display: inline-block;
+}
+.menu-icon{
+  height: 40px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 2px;
+  
+}
+.menu-button{
+  background:none;
+  border: none;
+  cursor: pointer;
+}
+
+.left-side-bar{
+  background-color: aliceblue;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 52px;
+  width: 2.5cm;
+  border-style: solid;
+  border-width: .5px;
+  border-color: #717171;
+  border-top: none;
+}
+.logo{
+  size: 2cm;
+ 
+}
+
+.logo-button{
+  background:none;
+  border: none;
+  cursor: pointer;
+  size: 2cm;
+  margin-right: .25cm;
+  margin-left: .12cm;
+  margin-top: 10px;
+  
+}
+.whatsappicon{
+  width: 1cm;
+  margin:5px ;
+  margin-left: none;
+}
+
+.social-icons{
+  background: none;
+  border: none;
+  width: auto;
+  cursor: pointer;
+  border-radius: 50px;
+}
