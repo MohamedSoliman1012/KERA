@@ -197,3 +197,66 @@ div{
     display: none;
   }
 }
+.product-main-page-div{
+  border-width: 5px;
+  border-style: hidden;
+  border-radius: 10px;
+  width: unset;
+
+  display: inline-block;
+}
+.main-page-cloths{
+  width: 500px;
+  text-align: center;
+ 
+  height: 500px;
+  background-color: white;
+  object-fit: contain;
+  border-style: hidden;
+  margin-bottom: 10px;
+  border-radius: 2.5cm;
+  margin: 20px;
+}
+.main-design-name{
+  display: inline-block;
+  border: 5px;
+  overflow: hidden;
+  margin: 10px;
+  vertical-align: top;
+  border-style: hidden;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+
+}
+.price{
+  display: inline-block;
+  border: 5px;
+  overflow: hidden;
+  margin: 10px;
+  vertical-align: top;
+  border-style: hidden;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.main-body{
+  border-style: solid;
+  border-width: 0.1cm;
+  margin-left: 3cm;
+  margin-top: 1.9cm;
+  margin-right: 0.5cm;
+  padding: 30px;
+}
+.buy-button{
+  background-color: rgb(252, 115, 115);
+  border-color: beige;
+  border-width: 0.1px;
+  width: 5cm;
+  height: 2cm;
+  font-size: 25px;
+}
+.buy-button:hover{
+ cursor: pointer;
+}
