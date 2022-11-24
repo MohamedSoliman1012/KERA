@@ -252,9 +252,8 @@
   }
 }
 .header{
-  height: 50px;
+  height: 40px;
   background-color: rgb(253, 87, 87);
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -269,11 +268,11 @@
   border-right: none;
 }
 .search-box::target-text{
-  padding-left: 2cm;
-  margin-left: 2cm;
+  padding-left: 1cm;
+  margin-left: 1cm;
 }
 body{
-  padding-top: 80px;
+  padding-top: 40px;
   background-color: rgb(253, 185, 185);
   background-position: center;
   background-size: cover;
@@ -283,14 +282,11 @@ body{
 
 }
 .left{
-  
   width: 25px;
- 
 }
 .middle{
   flex: 1;
   margin-left: 30px;
-  ;
   margin-right: 0px;
   max-width: 1000px;
   min-width: 500px;
@@ -298,13 +294,12 @@ body{
 }
 
 .right{
- 
-  width: 150px;
+  width: 50px;
 }
 
 .search-box {
-  width: 10cm;
-  height: 1cm;
+  width: 4cm;
+  height: 0.75cm;
   display: block;
   border-radius: 10px;
   border-width: 0.1px;
@@ -318,8 +313,7 @@ body{
   font-size: x-large;
   text-align: center;
 }
-.secound {
-    
+.secound {   
     width: 2px;
     text-align: center;
 }
@@ -330,10 +324,10 @@ body{
 }
 
 .products{
-  margin-left: 25px;
+  margin-left: 1px;
 }
 .product-divs{
-  width: 294px;
+  width: 160px;
   text-align: center;
   display: inline-block;
   vertical-align: top;
@@ -347,10 +341,10 @@ body{
   border-color: black;
 }
 .cloths {
-  width: 250px;
+  width: 155px;
   text-align: center;
   display: inline-block;
-  height: 250px;
+  height: 155px;
   background-color: white;
   object-fit: contain;
   border-style: hidden;
