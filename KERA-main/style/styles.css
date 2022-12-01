@@ -1,0 +1,272 @@
+@media only screen and (min-width:720px ) {
+  .header{
+    backdrop-filter: blur(20px);
+    height: 75px;
+    background-color: none;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width:1px;
+    border-color:rgb(0, 0, 0);
+    border-style: solid;
+    margin-bottom: 10px;
+    position: fixed  ;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-right: none;
+    border-top: none;
+ }
+  .search-box::target-text{
+    padding-left: 2cm;
+    margin-left: 2cm;
+  }
+  body{
+    padding-top: 80px;
+    padding-left: 80px;
+    background: linear-gradient(45deg, red,blue) ;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .left{
+    
+    width: 300px;
+   
+  }
+  .middle{
+    flex: 1;
+    margin-left: 65px;
+    ;
+    margin-right: 65px;
+    max-width: 1000px;
+    min-width: 500px;
+   
+  }
+  
+  .right{
+   
+    width: 300px;
+  }
+  
+  .search-box {
+    
+    width: 10cm;
+    height: 1cm;
+    display: block;
+    border-radius: 10px;
+    border-width: 0.1px;
+    margin-top: 15px;
+    margin-left: 5px;
+    flex: 1;
+    
+  }
+  .search-box::placeholder{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+  }
+  .secound {
+      
+      width: 2px;
+      text-align: center;
+  }
+  .logo {
+    width: 2cm;
+    border-radius: 5px;
+    
+  }
+  
+  .products{
+    display: flex;
+    align-self: center;
+    margin-left: 15px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+    margin-left: 15px;
+  }
+  .product-divs{
+    width: 294px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    border-style: solid;
+    border-width: .5px;
+    border-radius: 3px;
+    margin: 5px;
+    margin-left: 5px;
+    background-blend-mode: color-dodge;
+    overflow: hidden;
+    border-color: black;
+  }
+  .cloths {
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    height: 250px;
+    background-color: white;
+    object-fit: contain;
+    border-style: hidden;
+    margin-bottom: 10px;
+    border-radius: 147px;
+  }
+  .design-pic {
+    display: inline-block;
+  }
+  .design-name{
+    display: inline-block;
+    width: 3cm;
+    text-align: center;
+    color: black;
+    font: bold;
+    font-size: larger;
+  
+  }
+  div{
+   font-family: Arial, Helvetica, sans-serif; 
+   
+  }
+  .design-grid{
+    
+    display: grid;
+    grid-template-columns:100px ;
+    display: inline-block;
+  }
+  .menu-icon{
+    height: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 2px;
+    
+  }
+  .menu-button{
+    background:none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .left-side-bar{
+    background-color:none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    top: 77px;
+    width: 2.5cm;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #000000;
+    border-top: none;
+  }
+  .logo{
+    size: 2cm;
+   
+  }
+  
+  .logo-button{
+    background:none;
+    border: none;
+    cursor: pointer;
+    size: 2cm;
+    margin-right: .25cm;
+    margin-left: .12cm;
+    margin-top: 10px;
+    
+  }
+  .whatsappicon{
+    width: 1cm;
+    margin:5px ;
+    margin-left: none;
+  }
+  
+  .social-icons{
+    background: none;
+    border: none;
+    width: auto;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .social-icons :hover{
+    background-color: #717171;
+    border-radius: 50px;
+    border: auto 
+  }
+  
+  .product-main-page-div{
+    border-width: 5px;
+    border-style: hidden;
+    border-radius: 10px;
+    width: unset;
+  
+    display: inline-block;
+  }
+  .main-page-cloths{
+    width: 500px;
+    text-align: center;
+   
+    height: 500px;
+    background-color: white;
+    object-fit: contain;
+    border-style: hidden;
+    margin-bottom: 10px;
+    border-radius: 2.5cm;
+    margin: 20px;
+  }
+  .main-design-name{
+    display: inline-block;
+    border: 5px;
+    overflow: hidden;
+    margin: 10px;
+    vertical-align: top;
+    border-style: hidden;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+  
+  }
+  .price{
+    display: inline-block;
+    border: 5px;
+    overflow: hidden;
+    margin: 10px;
+    vertical-align: top;
+    border-style: hidden;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .main-body{
+    border-style: solid;
+    border-width: 0.1cm;
+    margin-left: 3cm;
+    margin-top: 1.9cm;
+    margin-right: 0.5cm;
+    padding: 30px;
+  }
+  .buy-button{
+    background: linear-gradient(45deg, rgb(255, 0, 0),rgb(0, 0, 255)) ;
+    border-color: rgb(0, 0, 0);
+    border-width: 0.1px;
+    width: 5cm;
+    height: 2cm;
+    font-size: 30px;
+    font: bold;
+    transition-duration: 0.2s;
+  }
+  .buy-button:hover{
+   cursor: pointer;
+   background: round;
+
+   width: 5.5cm;
+   height: 2.5cm;
+   font-size: 30px;
+  }
+}

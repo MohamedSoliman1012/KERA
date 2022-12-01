@@ -1,0 +1,240 @@
+@media only screen and (max-width:720px ) {
+  .header{
+    backdrop-filter: blur(10px);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width:1px;
+    border-color:gray;
+    border-style: solid;
+    margin-bottom: 10px;
+    position: fixed  ;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-right: none;
+  }
+  .search-box::target-text{
+    padding-left: 1cm;
+    margin-left: 1cm;
+  }
+  body{
+    padding-top: 40px;
+    background: linear-gradient(45deg, red,blue) ;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .left{
+    width: 25px;
+  }
+  .middle{
+    flex: 1;
+    margin-left: 30px;
+    margin-right: 0px;
+    max-width: 300px;
+    min-width: 50px;
+  
+  }
+
+  .right{
+    width: 130px;
+    height: 30px;
+  }
+  .search-box {
+    display: none;
+  }
+  .search-box::placeholder{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+  }
+  .secound {   
+      width: 2px;
+      text-align: center;
+  }
+  .logo {
+    width: 2cm;
+    border-radius: 5px;
+    
+  }
+
+  .products{
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 10px;
+  }
+  .product-divs{
+    min-width: 150px;
+    max-width: 150px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    border-style: solid;
+    border-width: .5px;
+    border-radius: 3px;
+    margin: 5px;
+    margin-left: 5px;
+    background: inherit;
+    overflow: hidden;
+    border-color: black;
+    align-items: center;
+  }
+  .cloths {
+    width: 155px;
+    text-align: center;
+    display: inline-block;
+    height: 155px;
+    background-color: white;
+    object-fit: contain;
+    border-style: hidden;
+    margin-bottom: 10px;
+    border-radius: 147px;
+  }
+  .design-pic {
+    display: inline-block;
+  }
+  .design-name{
+    display: inline-block;
+    width: 3cm;
+    text-align: center;
+    color: black;
+    font: bold;
+    font-size: larger;
+
+  }
+  div{
+  font-family: Arial, Helvetica, sans-serif; 
+  
+  }
+  .design-grid{
+    
+    display: grid;
+    grid-template-columns:100px ;
+    display: inline-block;
+  }
+  .menu-icon{
+    height: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 2px;
+    
+  }
+  .menu-button{
+    background:none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .left-side-bar{
+  display: none;
+  }
+  .logo{
+    size: 2cm;
+  
+  }
+
+  .logo-button{
+    background:none;
+    border: none;
+    cursor: pointer;
+    size: 2cm;
+    margin-right: .25cm;
+    margin-left: .12cm;
+    margin-top: 10px;
+    
+  }
+  .whatsappicon{
+    width: 1cm;
+    margin:5px ;
+    margin-left: none;
+  }
+
+  .social-icons{
+    background: none;
+    border: none;
+    width: auto;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .social-icons :hover{
+    background-color: #717171;
+    border-radius: 50px;
+    border: auto 
+  }
+
+  .product-main-page-div{
+    border-width: 5px;
+    border-style: hidden;
+    border-radius: 10px;
+    width: unset;
+
+    display: inline-block;
+  }
+  .main-page-cloths{
+    width: 500px;
+    text-align: center;
+  
+    height: 500px;
+    background-color: white;
+    object-fit: contain;
+    border-style: hidden;
+    margin-bottom: 10px;
+    border-radius: 2.5cm;
+    margin: 20px;
+  }
+  .main-design-name{
+    display: inline-block;
+    border: 5px;
+    overflow: hidden;
+    margin: 10px;
+    vertical-align: top;
+    border-style: hidden;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+  }
+  .price{
+    display: inline-block;
+    border: 5px;
+    overflow: hidden;
+    margin: 10px;
+    vertical-align: top;
+    border-style: hidden;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .main-body{
+    border-style: solid;
+    border-width: 0.1cm;
+    margin-left: 3cm;
+    margin-top: 1.9cm;
+    margin-right: 0.5cm;
+    padding: 30px;
+  }
+  .buy-button{
+    background-color: rgb(252, 115, 115);
+    border-color: beige;
+    border-width: 0.1px;
+    width: 5cm;
+    height: 2cm;
+    font-size: 25px;
+  }
+  .buy-button:hover{
+  cursor: pointer;
+  }
+}
+
+
+
+
