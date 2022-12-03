@@ -65,15 +65,15 @@
     display: flex;
     align-self: center;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     align-self: center;
     margin-top: 10px;
+    align-content: space-around;
+    align-items: center;
   }
   .product-divs{
-    min-width: 150px;
-    max-width: 150px;
+    width: 170px;
     text-align: center;
     display: inline-block;
     vertical-align: top;

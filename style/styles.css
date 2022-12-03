@@ -25,7 +25,7 @@
   body{
     padding-top: 80px;
     padding-left: 80px;
-    background: linear-gradient(45deg, red,blue) ;
+    background: linear-gradient(45deg, rgb(0, 255, 200),blue ,rgb(255, 0, 0)) ;
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
@@ -87,10 +87,12 @@
     margin-left: 15px;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
     align-self: center;
     margin-left: 15px;
+    align-content: space-around;
+    align-items: center;
   }
   .product-divs{
     width: 294px;
